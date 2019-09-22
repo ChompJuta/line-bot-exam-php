@@ -84,8 +84,6 @@
 				  .cont{ width: 30% }
 				}
 
-				h2{ color: #fff; margin-top: 25px; }
-
     </style>
 
       <!--Let browser know website is optimized for mobile-->
@@ -94,15 +92,18 @@
 
     <body>
     <div class="container">
-    <h2> ซีพีเฟรชมาร์ทสาขาปากช่อง</h2>
+    <center>
+    	<h2 style="margin-top: 25px; color: #fff;">ซีพีเฟรชมาร์ท</h2>
+        <h4>สาขาปากช่อง</h4>
+	</center>
 
-	<div class="cont">
+	<div class="cont" style="">
 	  
 	  <div class="form">
 	    <form action="">
 	      <center><span style="font-size: 24px; font-weight: bold; color: #606060;" >ลงทะเบียนลูกค้าใหม่</span></center>
 
-	      <center><div style="width: 100px; height: 100px; background-color: #00695c; margin-top: 10px; border-radius: 100px;"> </div></center>
+	      <!-- <center><div style="width: 100px; height: 100px; background-color: #00695c; margin-top: 10px; border-radius: 100px;"> </div></center> -->
 
 	      <input type="text"
 	             class="user"
@@ -115,6 +116,17 @@
 	             class="user"
 	             name="phonenumber" 
 	             placeholder="เบอร์ติดต่อ" style="color: #00695c;" />
+
+
+			<select class="user" style="color: #00695c; text-align: center;">
+			  <option selected >&nbsp;&nbsp;ประเภทธรุกิจ</option>
+			  <option value="1">&nbsp;&nbsp;ร้านอาหาร</option>
+			  <option value="2">&nbsp;&nbsp;โรงแรม</option>
+			  <option value="3">&nbsp;&nbsp;อื่นๆ</option>
+			</select>
+
+	     
+
 
 	      
 	      <button  class="login" >ลงทะเบียน</button>
